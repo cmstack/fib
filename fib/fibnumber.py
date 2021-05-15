@@ -6,11 +6,12 @@ def fibnumber(n):
     a,b = 0,1
     for i in range(n):
         a,b = b,a+b
-    print(a)
+    return a
 
-
+'''
 if __name__ == '__main__':
-    fibnumber(20)
+    fibnumber()
+'''
 
 # 1,2,3,4,5
 # 1,3,5,7,9

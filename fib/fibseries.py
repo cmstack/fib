@@ -10,6 +10,3 @@ def fibseries(n):
         print(first)
         first, second = second, first+second
         count += 1
-
-if __name__ == '__main__':
-    fibseries(20)
